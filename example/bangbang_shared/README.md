@@ -12,3 +12,8 @@ The Python script needs to have equivalent symbolic links like the script in the
 Use the following syntax in order to create the two symbolic links:  
 **ln -s /path_to_folder/folder/ local_name**
 
+## Building
+Type make to build.  
+Make sure that the hypervisor is rebuilt.  
+uberwork/uberxmhf/uxmhf-rpi3/rgapps/linux/libs/libkhcall has to be rebuilt manually,  
+because the hypervisor build does not build it automatically.  
